@@ -61,7 +61,6 @@ export default {
     line-height: 0;
     letter-spacing: 3px;
     margin-top: 24px;
-    padding-right: 68px;
     .male {
       font-size: 12.5px;
 
