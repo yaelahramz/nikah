@@ -27,7 +27,7 @@
 
     <div class="_main_left_warp _big_text _green" style="padding-top:23px;padding-bottom: 85px;">
       <div class="_main_txt">
-        <strong>Sabtu, 27 Juli 2024 | 9 Pagi</strong>
+        <strong>Sabtu, 27 Juli 2024 | 09:00 WIB</strong>
       </div>
       <div class="_large_text" style="margin-top: 5px;">Di kediaman mempelai Wanita</div>
     </div>
