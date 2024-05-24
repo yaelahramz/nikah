@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="_main_date_warp _green">
-      <p><b>06</b></p>
+      <p><b>27</b></p>
       <div style="width: 33.28px;">
       <Divider3
           :padding-bottom="0"
@@ -11,14 +11,14 @@
           :hr-margin="0"
       />
       </div>
-      <p><b>08</b></p>
+      <p><b>07</b></p>
     </div>
 
     <div class="_main_left_warp _green" style="padding-top:128px;">
       <p class="_english_font" style="font-size: 20px;margin-bottom: 12px;">
         The marriage of
       </p>
-      <p>박성수 <span class="_english_font _and">&</span> 김규빈</p>
+      <p>Resti <span class="_english_font _and">&</span> Rama</p>
     </div>
 
     <div class="_main_image_warp">
@@ -27,9 +27,9 @@
 
     <div class="_main_left_warp _big_text _green" style="padding-top:23px;padding-bottom: 85px;">
       <div class="_main_txt">
-        <strong>2024년 6월 8일 토요일 오후 5시</strong>
+        <strong>Sabtu, 27 Juli 2024 pukul 9 Pagi</strong>
       </div>
-      <div class="_large_text" style="margin-top: 5px;">노블발렌티 대치점 단독홀</div>
+      <div class="_large_text" style="margin-top: 5px;">Di kediaman mempelai Wanita</div>
     </div>
   </div>
 </template>
