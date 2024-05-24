@@ -65,7 +65,7 @@ export default {
     .male {
       font-size: 12.5px;
       margin-left: 26px;
-      margin-right: 26px;
+      margin-right: 43px;
     }
     .female {
       font-size: 12.5px;
