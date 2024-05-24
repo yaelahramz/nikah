@@ -10,8 +10,8 @@ Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasan
     <Divider3 :padding-bottom="0" padding-right="24" padding-left="24"/>
 
     <div class="names _small_text _gray">
-      <p>(故)박복식∙신미애<span class="male">의 차남</span><strong>성수</strong></p>
-      <p>김동균∙송인숙<span class="male">의 장녀</span><strong>규빈</strong></p>
+      <p><strong>Resti Kurniawati</strong></p>
+      <p><span class="male">Putri Kedua dari Bapak Satam Ibu Jubaedah</span></p>
       <p>(故)박복식∙신미애<span class="male">의 차남</span><strong>성수</strong></p>
       <p>김동균∙송인숙<span class="male">의 장녀</span><strong>규빈</strong></p>
     </div>
