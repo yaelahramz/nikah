@@ -57,7 +57,7 @@ export default {
     color: #D7D7D7;
   }
   .names {
-    text-align: right;
+    text-align: center;
     line-height: 0;
     letter-spacing: 3px;
     margin-top: 24px;
