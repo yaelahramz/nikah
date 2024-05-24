@@ -16,7 +16,7 @@
 
     <div class="_main_left_warp _green" style="padding-top:128px;">
       <p class="_english_font" style="font-size: 20px;margin-bottom: 12px;">
-        The marriage of
+        The wedding of
       </p>
       <p>Resti <span class="_english_font _and">&</span> Rama</p>
     </div>
@@ -27,7 +27,7 @@
 
     <div class="_main_left_warp _big_text _green" style="padding-top:23px;padding-bottom: 85px;">
       <div class="_main_txt">
-        <strong>Sabtu, 27 Juli 2024 pukul 9 Pagi</strong>
+        <strong>Sabtu, 27 Juli 2024 | 9 Pagi</strong>
       </div>
       <div class="_large_text" style="margin-top: 5px;">Di kediaman mempelai Wanita</div>
     </div>
