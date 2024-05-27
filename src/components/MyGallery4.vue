@@ -4,7 +4,7 @@
       gallery
     </div>
     <div class="_big_text _green">
-      <b>Galeri Prewedding</b>
+      <b></b>
     </div>
     <div class="description _large_text _silver">
       Klik pada gambar untuk memperbesarnya.

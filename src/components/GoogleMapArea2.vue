@@ -4,13 +4,13 @@
       Location
     </div>
     <div class="_big_text _black">
-      <b>오시는 길</b>
+      <b>Akses</b>
     </div>
 
     <div class="address_area _large_text _gray">
-      서울시 강남구 영동대로 325<br>
-      S TOWER B1층 노블발렌티 대치점<br>
-      <p>T. 02-539-0400</p>
+      Perumahan Taman Wanasari Indah<br>
+      Blok B2 No 5 RT 009 RW 008<br>
+      <p>Cibitung, Bekasi 17520</p>
     </div>
 
     <a style="cursor: pointer" @click="copyAddress">
@@ -22,7 +22,7 @@
         <div role="alert" class="ui toast compact _toast_color" style="opacity: 1;">
           <i class="copy icon" style="visibility: visible;"></i>
           <div class="content">
-            <div class="message">복사가 완료되었습니다.</div>
+            <div class="message">Penyalinan selesai.</div>
           </div>
         </div>
       </div>
@@ -97,14 +97,14 @@ export default {
   },
   data() {
     return {
-      locationName: "노블발렌티 대치점",
-      address : "서울시 강남구 영동대로 325",
+      locationName: "Mama Resti",
+      address : "Perumahan Taman Wanasari Indah Blok B2 No 5 RT 009 RW 008",
       showCopyCompleteModal: false,
       tmapUrl: "",
       kakaoTaxiUrl: "",
       navermapUrl: "",
       kakaomapUrl: "",
-      googleMapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.193781032656!2d127.0654114!3d37.503347500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5935c76961b%3A0x689edb95b05a8fbb!2z64W467iU67Cc66CM7YuwIOuMgOy5mOygkA!5e0!3m2!1sko!2skr!4v1707751789248!5m2!1sko!2skr",
+      googleMapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.19872842079!2d107.09565467589161!3d-6.2375170937507445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f00112c051f%3A0xbe74c7c74b5cce2a!2sMama%20Resti!5e0!3m2!1sid!2sjp!4v1716809089496!5m2!1sid!2sjp",
     }
   },
   mounted() {
