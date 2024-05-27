@@ -39,13 +39,13 @@
 
     <div class="util_btn_icon_area">
       <a :href="navermapUrl">
-        <img class="util_btn_icon" src="../assets/images/new/map/navermap.png"/>
+        <img class="util_btn_icon" src="../assets/images/new/map/gojek.png"/>
       </a>
       <a :href="kakaoTaxiUrl">
-        <img class="util_btn_icon" src="../assets/images/new/map/kakaonavi.png"/>
+        <img class="util_btn_icon" src="../assets/images/new/map/grab.png"/>
       </a>
       <a :href="tmapUrl">
-        <img class="util_btn_icon" src="../assets/images/new/map/tmap.png"/>
+        <img class="util_btn_icon" src="../assets/images/new/map/maps.png"/>
       </a>
     </div>
 
@@ -113,7 +113,7 @@ export default {
   methods: {
     makeUrls() {
       const locationName = this.locationName
-      this.tmapUrl = "tmap://search?name=" + locationName
+      this.tmapUrl = "https://www.google.com/maps/place/Mama+Resti,+Jl.+Taman+Wanasari+Indah+No.05+Blok+B2,+Wanasari,+Kec.+Cibitung,+Kabupaten+Bekasi,+Jawa+Barat+17520,+Indonesia/@-6.2375171,107.0982296,16z/data=!4m6!3m5!1s0x2e698f00112c051f:0xbe74c7c74b5cce2a!8m2!3d-6.2375171!4d107.0982296!16s%2Fg%2F11ldwdptrc"
       this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&amp;dest_lat=37.49878007763176&amp;dest_lng=127.03170076652506&amp;ref=localweb"
       this.navermapUrl = "nmap://search?query=" + locationName
       this.kakaomapUrl = "kakaomap://search?q=" + locationName
