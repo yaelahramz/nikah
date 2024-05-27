@@ -4,10 +4,10 @@
       gallery
     </div>
     <div class="_big_text _green">
-      <b>웨딩 갤러리</b>
+      <b>Galeri Prewedding</b>
     </div>
     <div class="description _large_text _silver">
-      이미지를 클릭하시면 확대보기가 가능합니다.
+      Klik pada gambar untuk memperbesarnya.
     </div>
     <div class="ui images">
       <img class="ui image _gallery_image"

@@ -11,9 +11,9 @@ Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasan
 
     <div class="names _small_text _gray">
       <p><strong>Resti Kurniawati</strong></p>
-      <p><span class="male">Putri Kedua dari Bapak Satam Ibu Jubaedah</span></p>
-      <p>(故)박복식∙신미애<span class="male">의 차남</span><strong>성수</strong></p>
-      <p>김동균∙송인숙<span class="male">의 장녀</span><strong>규빈</strong></p>
+      <p><span class="male">Putri Kedua dari Bapak Satam & Ibu Jubaedah</span></p>
+      <p><strong>Muhammad Rizky Ramadhan</strong></p>
+      <p><span class="male">Putra Kedua dari Bapak Idris & Ibu Tati</span></p>
     </div>
 
     <img class="invi_main_image" src="../assets/images/new/invitation/invi_img.png" />
@@ -45,8 +45,10 @@ export default {
     line-height: 28px;
   }
   .desc {
-    line-height: 30px;
+    line-height: 21px;
     padding-bottom: 36px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .line_area {
     padding-bottom: 36px;
@@ -60,7 +62,7 @@ export default {
     text-align: center;
     line-height: 0;
     letter-spacing: 3px;
-    margin-top: 24px;
+    margin-top: 9px;
     .male {
       font-size: 12.5px;
 
