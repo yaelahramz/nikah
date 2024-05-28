@@ -5,7 +5,7 @@
            :class="maleActive"
            @click="toggleArea($event, 'MALE')"
       >
-        신랑측 계좌번호
+        Nomer rekening pengantin pria
         <i v-show="maleActive" class="chevron up icon"></i>
         <i v-show="!maleActive" class="chevron right icon"></i>
       </div>
@@ -14,19 +14,16 @@
           <tbody>
             <tr>
               <td class="six wide left aligned">
-                <p>신랑 - <strong>박성수</strong></p>
+                <p>Nama : <strong>Muhammad Rizky Ramadhan</strong></p>
                 <span class="_bank_info">
-                  국민은행<br>
+                  OCBC<br>
                   {{ this.bankAccount.male  }}
                 </span>
                 <div class="_bank_btn_area">
                   <div class="ui buttons">
                     <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.male)">
                       <i class="copy icon"></i>
-                      복사
-                    </button>
-                    <button class="ui mini button _kakaopay_btn"  @click="moveKakaoPay($event, this.kakaoPay.male)">
-                      <img class="ui mini image" src="~@/assets/images/kakaopay-btn.png">
+                      Copy
                     </button>
                   </div>
                 </div>
@@ -34,16 +31,16 @@
             </tr>
             <tr>
               <td class="left aligned">
-                <p>신랑 혼주 - <strong>신미애</strong></p>
+                <p>Nama : <strong>Muhammad Rizki Ramadhan</strong></p>
                 <span class="_bank_info">
-                  국민은행<br>
+                  Bank Neo Commerce<br>
                   {{ this.bankAccount.maleMother }}
                 </span>
                 <div class="_bank_btn_area">
                   <div class="ui buttons">
                     <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.maleMother)">
                       <i class="copy icon"></i>
-                      복사
+                      Copy
                     </button>
                   </div>
                 </div>
@@ -56,7 +53,7 @@
       <div class="title _title_area _small_text"
            :class="femaleActive"
            @click="toggleArea($event, 'FEMALE')">
-        신부측 계좌번호
+        Nomor rekening pengantin wanita
         <i v-show="femaleActive" class="chevron up icon"></i>
         <i v-show="!femaleActive" class="chevron right icon"></i>
       </div>
@@ -65,41 +62,22 @@
           <tbody>
           <tr>
             <td class="six wide left aligned">
-              <p>신부 - <strong>김규빈</strong></p>
+              <p>Nama : <strong>Resti Kurniawati</strong></p>
               <span class="_bank_info">
-                기업은행<br>
+                Bank Mandiri<br>
                 {{ this.bankAccount.female  }}
               </span>
               <div class="_bank_btn_area">
                 <div class="ui buttons">
                   <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.female)">
                     <i class="copy icon"></i>
-                    복사
-                  </button>
-                  <button class="ui mini button _kakaopay_btn" @click="moveKakaoPay($event, this.kakaoPay.female)">
-                    <img class="ui mini image" src="~@/assets/images/kakaopay-btn.png">
+                    Copy
                   </button>
                 </div>
               </div>
             </td>
           </tr>
-          <tr>
-            <td class="left aligned">
-              <p>신부 혼주 - <strong>송인숙</strong></p>
-                <span class="_bank_info">
-                  농협<br>
-                  {{ this.bankAccount.femaleMother }}
-                </span>
-              <div class="_bank_btn_area">
-                <div class="ui buttons">
-                  <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.femaleMother)">
-                    <i class="copy icon"></i>
-                    복사
-                  </button>
-                </div>
-              </div>
-            </td>
-          </tr>
+
           </tbody>
         </table>
       </div>
@@ -111,7 +89,7 @@
         <div role="alert" class="ui toast compact _toast_color" style="opacity: 1;">
           <i class="copy icon" style="visibility: visible;"></i>
           <div class="content">
-            <div class="message">복사가 완료되었습니다.</div>
+            <div class="message">Penyalinan selesai.</div>
           </div>
         </div>
       </div>
@@ -145,9 +123,9 @@ export default {
       showMaleContent: false,
       showFemaleContent: false,
       bankAccount: {
-        male : "99270132461",
-        maleMother: "59220201669901",
-        female: "53902218301017",
+        male : "693816753448",
+        maleMother: "5859459145560552",
+        female: "1560018780447",
         femaleMother: "21105152369181",
         femaleFather: "21105152369181",
       },

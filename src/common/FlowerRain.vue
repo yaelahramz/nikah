@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FlowerLeaf v-for="n in 12" :key="`leaf-${n}`" />
+    <FlowerLeaf v-for="n in 13" :key="`leaf-${n}`" />
   </div>
 </template>
 

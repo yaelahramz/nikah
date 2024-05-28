@@ -4,14 +4,14 @@
         Celebrate
       </div>
     <div class="_big_text _green">
-      <b>마음 전해주실 곳</b>
+      <b>Tempat untuk menyampaikan perasaan Anda</b>
     </div>
 
     <div class="text_area _large_text _gray">
-      참석이 어려우신 분들께서는<br>
-      축하의 마음을 담아 축의금을 전달해주세요.<br>
-      축의금이 아닌 마음만으로도<br>
-      충분히 감사드립니다.
+      Untuk Anda yang kesulitan hadir,<br>
+      silakan sampaikan ucapan selamat Anda dengan memberikan sumbangan.<br>
+      Meskipun tidak dengan sumbangan, kami sangat berterima kasih<br>
+      hanya dengan adanya dukungan Anda.
     </div>
 
     <bank-accordion style="margin-top: 24px;padding-bottom: 5px"/>

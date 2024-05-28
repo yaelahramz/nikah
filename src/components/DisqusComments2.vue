@@ -5,11 +5,11 @@
     </div>
 
     <div class="_big_text _green">
-      <b>방명록</b>
+      <b>Buku tamu</b>
     </div>
 
     <div class="desc_area _large_text _gray">
-      축하 메세지를 남겨주세요.
+      Silakan tinggalkan pesan selamat Anda.
     </div>
 
     <div ref="disqusWrap" class="_disqus_wrap">
@@ -39,9 +39,9 @@ export default {
   data() {
     return {
       pageConfig: {
-        title: '방명록',
-        language: "ko",
-        url: "https://sungsu9022.github.io/my-wedding/"
+        title: 'Buku tamu',
+        language: "id",
+        url: "#"
       },
     }
   },
