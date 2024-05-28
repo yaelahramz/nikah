@@ -8,10 +8,10 @@
     </div>
 
     <div class="text_area _large_text _gray">
-      Untuk Anda yang kesulitan hadir,<br>
-      silakan sampaikan ucapan selamat Anda dengan memberikan sumbangan.<br>
-      Meskipun tidak dengan sumbangan, kami sangat berterima kasih<br>
-      hanya dengan adanya dukungan Anda.
+      Kepada semua yang berbagi kebahagiaan pada hari istimewa kami,<br>
+      terima kasih tidak terhingga.<br>
+      Bagi Anda yang telah memberikan dukungan,<br>
+      kebaikan Anda telah menyentuh hati kami mendalam.
     </div>
 
     <bank-accordion style="margin-top: 24px;padding-bottom: 5px"/>
